@@ -1,0 +1,9 @@
+/* This is cool transition with the link */
+nav.MM_ul_parts ul li a {
+    color: paleturquoise;
+    transition: color 0.5s ease-in 0.5s;
+}
+
+nav.MM_ul_parts ul li a:hover {
+    color: white;
+}
