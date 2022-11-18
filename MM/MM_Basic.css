@@ -20,6 +20,7 @@ nav.MM_ul_parts ul {
 nav.MM_ul_parts ul li {
     display: inline-block;
     position: relative;
+    font-size: 20px;
 }
 
 nav.MM_ul_parts ul li a {
@@ -42,6 +43,7 @@ nav.MM_ul_parts ul li a:hover {
 
 nav.MM_ul_parts ul li:hover ul.dropdown {
     display: block;
+    background: url('../space.jpg');
 }
 
 /* Footer Styles */

@@ -4,3 +4,21 @@ div.big_table {
     border-radius: 10px;
     background: linear-gradient(to bottom, white, rgb(224, 201, 166));
 }
+
+div.big_table table {
+    border-spacing: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+div.big_table caption {
+    text-align: center;
+}
+
+div.big_table table thead th {
+    text-align: center;
+}
+
+div.big_table td {
+    text-align: center;
+}

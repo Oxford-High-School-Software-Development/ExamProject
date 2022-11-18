@@ -30,7 +30,7 @@ body > nav > ul > li > a {
 }
 
 body header {
-    background: url('../space.jpg')
+    background: url('../space.jpg');
 }
 
 body header h1 {
