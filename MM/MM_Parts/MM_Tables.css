@@ -2,17 +2,33 @@
 div.big_table {
     color: black;
     border-radius: 10px;
-    background: linear-gradient(to bottom, white, rgb(224, 201, 166));
 }
 
-div.big_table table {
+div.big_table table  {
     border-spacing: 5px;
+    border-radius: 15px;
     width: 50%;
     height: 50%;
+    background: linear-gradient(345deg, white, rgb(224, 201, 166) 80%);
+    text-align: center;
+}
+
+div.big_table col {
+    width: 16.66%;
+}
+div.big_table th.subheads {
+    font-size: 14pt;
 }
 
 div.big_table caption {
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 10px;
+}
+/*
+div.big_table caption {
     text-align: center;
+    
 }
 
 div.big_table table thead th {
@@ -22,3 +38,4 @@ div.big_table table thead th {
 div.big_table td {
     text-align: center;
 }
+*/
