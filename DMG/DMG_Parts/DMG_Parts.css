@@ -1,0 +1,67 @@
+html {
+    background: url('../DMG_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+    background-color: darkslategray
+}
+
+body {
+    background-color: darkcyan;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:30px
+}
+
+a {
+    text-decoration:none;
+}
+
+body > nav {
+    margin-bottom: -20px;
+}
+
+body > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body > nav > ul > li {
+    list-style: none;
+}
+
+body > nav > ul > li > a {
+    text-decoration: none;
+}
+
+body header {
+    background: url('../../space.jpg')
+}
+
+body header h1 {
+    color: rebeccapurple;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+body header h1 a {
+    text-decoration: none;
+}
+
+body header nav {
+    margin-right: 30px;
+}
+
+body header nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;   
+
+}
+
+body header nav ul li {
+    list-style: none;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    color: paleturquoise;
+}
