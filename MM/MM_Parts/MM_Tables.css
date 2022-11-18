@@ -1,4 +1,6 @@
 /* Tables */
 div.big_table {
     color: black;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, white, rgb(224, 201, 166));
 }

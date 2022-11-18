@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Small Changes*/
+
 
 /* This is cool transition with the link */
 nav.MM_ul_parts ul li a {
@@ -41,3 +43,7 @@ nav.MM_ul_parts ul li a:hover {
 nav.MM_ul_parts ul li:hover ul.dropdown {
     display: block;
 }
+
+/* Footer Styles */
+
+
