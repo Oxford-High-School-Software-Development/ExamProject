@@ -1,5 +1,6 @@
 html {
-    background: url('DMG_background.jpg') center center / 100% 100% no-repeat fixed content-box content-box;
+    background: url('DMG_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+    background-color: darkslategray
 }
 
 body {
