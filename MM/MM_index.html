@@ -2,24 +2,21 @@
 <html>
     <head>
          <title>Monster Manual</title>
-         <link href="MM_Layout.css" rel="stylesheet"/>
-         <link href="MM_Basic.css" rel="stylesheet" />
+         <link href="MM_Layout.css" rel="stylesheet" media="all"/>
+         <link href="MM_Basic.css" rel="stylesheet" media="all"/>
     </head>
 
-    <body>
+    <body class="altMargin">
         <nav>
             <ul>
-                <li><a href="../PH_index.html">Player Handbook</a></li>
-                <li><a href="MM_index.html">Monster Manual</a></li>
-                <li><a href="../DMG/DMG_index.html">Dungeon Master's Guide</a></li>
             </ul>
         </nav>
         <header>
-            <h1><a href="MM_index.html">Monster Manual</a></h1>
+            <h1>Monster Manual</h1>
             <nav class="MM_ul_parts">
                 <ul>
                     <li>
-                        <a href="MM_Parts/MM_part1.html">Monster Part List ▼</a>
+                        <a href="#">Monster Part List ▼</a>
                         <ul class="dropdown">
                             <li><a href="MM_Parts/MM_part1.html">Monster List Part 1</a></li>
                             <li><a href="MM_Parts/MM_part2.html">Monster List Part 2</a></li>
@@ -28,7 +25,7 @@
                     </li>
 
                     <li>
-                        <a href="MM_Parts/MM_part2.html">Manuals ▼</a>
+                        <a href="#">Manuals ▼</a>
                         <ul class="dropdown"> 
                             <li><a href="../PH_index.html">Player Handbook</a></li>
                             <li><a href="MM_index.html">Monster Manual</a></li>
@@ -41,9 +38,18 @@
                 </ul>
             </nav>
         </header>
+        <blockquote>
+            <p>This is the <cite>best site</cite> to go to for D&D campain purposes.
+            </p> 
+            <br />
+            <p>&mdash; Danielle Rice</p>
+         </blockquote> 
     <div class="big_table">  
         <table>
             <caption></caption>
+            <colgroup>
+            <col span="6" />
+            </colgroup>
             <thead>
             <tr>
                 <th>Armor Class</th>
@@ -53,13 +59,11 @@
             </thead>
             <tbody>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
             </tr>
             </tbody>
-        </table>
-        <table>
             <thead>
             <tr>
                 <th>STR</th>
@@ -72,16 +76,14 @@
             </thead>
             <tbody>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
             </tr>
             </tbody>
-        </table>
-        <table>
             <thead>
             <tr>
                 <th>Skills</th>
@@ -92,14 +94,12 @@
             </thead>
             <tbody>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
             </tr>
             </tbody>
-        </table>
-        <table>
             <thead>
             <tr>
                 <th>Speical Attacks</th>
@@ -107,11 +107,10 @@
             </thead>
             <tbody>
             <tr>
-                <th></th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
             </tr>
             </tbody>
-        </table>
-        <table>
             <thead>
             <tr>
                 <th>Actions</th>
@@ -119,7 +118,8 @@
             </thead>
             <tbody>
             <tr>
-                <th></th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
             </tr>
             </tbody>
         </table>
