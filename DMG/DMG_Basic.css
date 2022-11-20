@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* Small Changes*/
+
+/* Copied over from Dlyan's code */
+
+/* This is cool transition with the link */
+nav.DMG_ul_parts ul li a {
+    color: paleturquoise;
+    transition: color 0.5s ease-in 0.5s;
+}
+
+nav.DMG_ul_parts ul li a:hover {
+    color: white;
+}
+
+/* Navbar */
+nav.DMG_ul_parts ul {
+    padding: 0px;
+    margin: 0px;
+}
+nav.DMG_ul_parts ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+
+nav.DMG_ul_parts ul li a {
+    display: block;
+    text-align: center;
+}
+
+nav.DMG_ul_parts ul li ul.dropdown li a {
+    margin-top: 10px;
+}
+
+nav.DMG_ul_parts ul li ul.dropdown li {
+    display: block;
+}
+nav.DMG_ul_parts ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+
+nav.DMG_ul_parts ul li a:hover {
+    background-color: none;
+}
+
+nav.DMG_ul_parts ul li:hover ul.dropdown {
+    display: block;
+    background: url('../space.jpg');
+}
+
+/* Footer Styles */
+
+
