@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+@media only screen and (max-width: 480px) {
+    body > header > nav.MM_ul_parts > ul {
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        -webkit-flex-flow:  wrap;
+        flex-flow:  wrap;
+        flex-wrap: row wrap;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    body > header > nav.MM_ul_parts > ul {
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        -webkit-flex-flow: wrap;
+        flex-flow: wrap;
+        flex-wrap: row wrap;
+    }
+    nav.MM_ul_parts {
+        height: 240px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    body > header > nav.MM_ul_parts > ul {
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        -webkit-flex-flow: wrap;
+        flex-flow:  wrap;
+        flex-wrap: row wrap;
+    }
+    nav.MM_ul_parts {
+        height: 160px;
+      }
+}

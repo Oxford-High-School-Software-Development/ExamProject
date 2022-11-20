@@ -1,16 +1,20 @@
+@charset "UTF-8";
+
 /* Tables */
 div.big_table {
-    color: black;
-    border-radius: 10px;
+    justify-content: center;
 }
 
 div.big_table table  {
     border-spacing: 5px;
     border-radius: 15px;
     width: 50%;
-    height: 50%;
     background: linear-gradient(345deg, white, rgb(224, 201, 166) 80%);
     text-align: center;
+    color: black;
+    border-radius: 10px;
+    float: center;
+    overflow: scroll;
 }
 
 div.big_table col {
@@ -24,18 +28,10 @@ div.big_table caption {
     font-size: 16pt;
     font-weight: bold;
     padding: 10px;
-}
-/*
-div.big_table caption {
-    text-align: center;
-    
+    float: center;
 }
 
-div.big_table table thead th {
-    text-align: center;
+div.big_table table#position {
+    top: 20px;
+    right: 50px;
 }
-
-div.big_table td {
-    text-align: center;
-}
-*/
