@@ -2,18 +2,23 @@
 <html>
     <head>
          <title>Dungeon Master's Guide</title>
-         <link href="../MM_Layout.css" rel="stylesheet" />
-         <link href="../MM_Basic.css" rel="stylesheet"/>
-         <link href="MM_Tables.css" rel="stylesheet" />
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link href="../MM_Layout.css" rel="stylesheet" media="all"/>
+         <link href="../MM_Basic.css" rel="stylesheet" media="all"/>
+         <link href="MM_Tables.css" rel="stylesheet" media="all"/>
+         <link href="MM_Print.css" rel="stylesheet" media="print" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1><a href="MM_index.html">Monster Manual</a></h1>
+            <h1>Monster Manual</h1>
             <nav class="MM_ul_parts">
                 <ul>
                     <li>
-                        <a href="MM_Parts/MM_part1.html">Monster Part List ▼</a>
+                        <a href="#">Monster Part List ▼</a>
                         <ul class="dropdown">
                             <li><a href="MM_Parts/MM_part1.html">Monster List Part 1</a></li>
                             <li><a href="MM_Parts/MM_part2.html">Monster List Part 2</a></li>
@@ -22,7 +27,7 @@
                     </li>
 
                     <li>
-                        <a href="MM_Parts/MM_part2.html">Manuals ▼</a>
+                        <a href="#">Manuals ▼</a>
                         <ul class="dropdown"> 
                             <li><a href="../PH_index.html">Player Handbook</a></li>
                             <li><a href="../MM_index.html">Monster Manual</a></li>
@@ -38,23 +43,24 @@
         <!-- Copy and Pasteable Tables with all with theads and tbodys -->
         <div class="big_table">  
             <table>
-                <caption><h3>Aarakocra</h3></caption>
+                <caption>Aarakocra</caption>
+                <colgroup>
+                <col span="6" />
+                </colgroup>
                 <thead>
                 <tr>
-                    <th>Armor Class</th>
-                    <th>Hit Points</th>
-                    <th>Speed</th>
+                    <th colspan="2">Armor Class</th>
+                    <th colspan="2">Hit Points</th>
+                    <th colspan="2">Speed</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td rowspan="2">12</td>
-                    <td rowspan="2">13 (3d8)</td>
-                    <td rowspan="2">20ft., fly 50 ft.</td>
+                    <td rowspan="2" colspan="2">12</td>
+                    <td rowspan="2" colspan="2">13 (3d8)</td>
+                    <td rowspan="2" colspan="2">20ft., fly 50 ft.</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
                     <th>STR</th>
@@ -75,11 +81,10 @@
                     <td rowspan="2">11(+0)</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
-                    <th>Skills</th>
+                    <th></th>
+                    <th colspan="1.5">Skills</th>
                     <th>Senses</th>
                     <th>Languages</th>
                     <th>Challenge</th>
@@ -87,69 +92,67 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td></td>
                     <td rowspan="2">Perception +5</td>
                     <td rowspan="2">Passive Perception 15</td>
                     <td rowspan="2">Auran</td>
                     <td rowspan="2">1/4 (50 XP)</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
-                    <th>Speical</th>
+                    <th colspan="6" class="subheads">Special</th>
+                </tr>
+                </thead>
+                <thead>
+                <tr>
+                    <th colspan="6">Dive Attack</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th>Dive Attack</th>
-                </tr>
-                <tr>
-                    <td rowspan="2">If the aarakocra is flying and dives at least 30 feet
+                    <td rowspan="2" colspan="6">If the aarakocra is flying and dives at least 30 feet
                         straight toward a target and then hits it with a melee weapon
                         attack, the attack deals an extra 3 (1d6) damage to the target</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
-                    <th>Actions</th>
+                    <th colspan="6" class="subheads">Actions</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Talon</th>
+                    <th colspan="3">Javelin</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th>Talon</th>
-                    <th>Javelin</th>
-                </tr>
-                <tr>
-                    <td rowspan="2">Melee Weapon Attack: +4 to hit, reach 5 ft. , one target.
+                    <td rowspan="2" colspan="3">Melee Weapon Attack: +4 to hit, reach 5 ft. , one target.
                         Hit: 4 (ld4 + 2) slashing damage</td>
-                    <td rowspan="2">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or
+                    <td rowspan="2" colspan="3">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or
                         range 30/120 ft ., one target. Hit: 5 (1d6 + 2) piercing damage</td>
                 </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="big_table">  
             <table>
-                <caption><h3>Aboleth</h3></caption>
+                <caption>Aboleth</caption>
+                <colgroup>
+                    <col span="6" />
+                </colgroup>
                 <thead>
                 <tr>
-                    <th>Armor Class</th>
-                    <th>Hit Points</th>
-                    <th>Speed</th>
+                    <th colspan="2">Armor Class</th>
+                    <th colspan="2">Hit Points</th>
+                    <th colspan="2">Speed</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td rowspan="2">17 (natural armor)</td>
-                    <td rowspan="2">134 (18d10 + 36)</td>
-                    <td rowspan="2">10ft., swim 40ft.</td>
+                    <td rowspan="2" colspan="2">17 (natural armor)</td>
+                    <td rowspan="2" colspan="2">134 (18d10 + 36)</td>
+                    <td rowspan="2" colspan="2">10ft., swim 40ft.</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
                     <th>STR</th>
@@ -170,8 +173,6 @@
                     <td rowspan="2">18 {+4)</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
                     <th>Saving Throws</th>
@@ -190,73 +191,67 @@
                     <td rowspan="2">10 (5,900 XP)</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
-                    <th>Speical</th>
+                    <th colspan="6">Special</th>
+                </tr>
+                <tr>
+                    <th rowspan="2" colspan="2">Amphibious</th>
+                    <th rowspan="2" colspan="2">Mucous Cloud</th>
+                    <th rowspan="2" colspan="2">Probing Telepathy</th>
                 </tr>
                 </thead>
-                <tbody>
                 <tr>
-                    <th>Amphibious</th>
-                    <th>Mucous Cloud</th>
-                    <th>Probing Telepathy</th>
-                </tr>
-                <tr>
-                    <td rowspan="2">The aboleth can breathe air and water.</td>
-                    <td rowspan="2">While underwater, the aboleth is surrounded
+                    <td rowspan="2" colspan="2">The aboleth can breathe air and water.</td>
+                    <td rowspan="2" colspan="2">While underwater, the aboleth is surrounded
                         by transformative mucus. A creature that touches the aboleth
                         or that hits it with a melee attack while within 5 feet of it must
                         make a DC 14 Constitution saving throw. On a failure, the
                         creature is diseased for 1d4 hours. The diseased creature can
                         breathe only underwater</td>
-                    <td rowspan="2">If a creature communicates telepathically
+                    <td rowspan="2" colspan="2">If a creature communicates telepathically
                         with the aboleth, the aboleth learns the creature's greatest
                         desires if the aboleth can see the creature</td>
                 </tr>
-                </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
-                    <th rowspan="2">Actions</th>
+                    <th colspan="6">Actions</th>
                 </tr>
-                </thead>
                 <tbody>
                 <tr>
-                    <th>Multiattack</th>
-                    <th>Tentacle</th>
+                    <th colspan="3">Multiattack</th>
+                    <th colspan="3">Tentacle</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
-                    <td rowspan="2">The aboleth makes three tentacle attacks</td> 
-                    <td rowspan="2">Melee Weapon Attack: +9 to hit, reach 10ft., one
+                    <td rowspan="2" colspan="3">The aboleth makes three tentacle attacks</td> 
+                    <td rowspan="2" colspan="3">Melee Weapon Attack: +9 to hit, reach 10ft., one
                         target. Hit: 12 (2d6 + 5) bludgeoning damage. 
                         If the target is a creature, it must succeed on a DC 14 
                         Constitution saving throw</td>
                 </tr>
                 </tbody>
-            </table>
-        </div>
-        <div class="big_table">  
+            </table> 
             <table>
-                <caption><h3>Deva</h3></caption>
+                <caption>Deva</caption>
+                <colgroup>
+                    <col span="6" />
+                </colgroup>
                 <thead>
                 <tr>
-                    <th>Armor Class</th>
-                    <th>Hit Points</th>
-                    <th>Speed</th>
+                    <th colspan="2">Armor Class</th>
+                    <th colspan="2">Hit Points</th>
+                    <th colspan="2">Speed</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td rowspan="2">17 (natural armor)</td>
-                    <td rowspan="2">136 (16d8 + 64)</td>
-                    <td rowspan="2">30 ft., fly 90ft.</td>
+                    <td rowspan="2" colspan="2">17 (natural armor)</td>
+                    <td rowspan="2" colspan="2">136 (16d8 + 64)</td>
+                    <td rowspan="2" colspan="2">30 ft., fly 90ft.</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
                     <th>STR</th>
@@ -277,8 +272,6 @@
                     <td rowspan="2">20 (+5)</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
                     <th>Saving Throws</th>
@@ -296,29 +289,27 @@
                     <td>Insight +7, Perception +9</td>
                     <td>radiant; bludgeoning, piercing, and
                         slashing from non magical weapons</td>
-                    <td>charmed, exhaustion, frightened
-                        Senses darkvision 120 ft., passive Perception 19</td>
+                    <td>charmed, exhaustion, frightened</td>
+                       <td>Senses darkvision 120 ft., passive Perception 19</td>
                     <td>all , telepathy 120 ft.</td>
                     <td>10 (5,900 XP)</td>
                 </tr>
                 </tbody>
-            </table>
-            <table>
                 <thead>
                 <tr>
-                    <th>Speical</th>
+                    <th colspan="6">Special</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Angelic Weapons</th>
+                    <th colspan="3">Innate Spellcasting</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th>Angelic Weapons</th>
-                    <th>Innate Spellcasting</th>
-                </tr>
-                <tr>
-                    <td rowspan="2">The deva's weapon attacks are magical.
+                    <td rowspan="2" colspan="3">The deva's weapon attacks are magical.
                         When the deva hits with any weapon, the weapon deals an
                         extra 4d8 radiant damage (included in the attack)</td>
-                    <td rowspan="2">The deva's spell casting ability is Charisma
+                    <td rowspan="2" colspan="3">The deva's spell casting ability is Charisma
                         (spell save DC 17). The deva can innately cast the following
                         spells, requiring only verbal components: At will: detect evil and good
                         1/day each: commune, raise dead</td>
@@ -327,4 +318,10 @@
             </table>
         </div> 
     </body> 
+    <br />
+    <footer>
+        <br />
+        <h3 id="footerh3">Dylan Wishon</h3> <a class="outside_link" href="https://online.anyflip.com/duex/ixpz/mobile/index.html#p=1" target="_blank" alt=""><h3 id="footerh3">Monster Manual Book (Online Verison)</h3></a>
+        <br />
+    </footer>
 </html>

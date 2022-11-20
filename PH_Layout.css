@@ -1,9 +1,9 @@
 html {
-    background: url('PH_background.jpg') center center / 100% 100% no-repeat fixed content-box content-box;
+    background: url('PH_background.jpg') center center / auto auto no-repeat fixed content-box content-box rgba(1, 0, 15, 0.94);
 }
 
 body {
-    background-color: darkcyan;
+    background-color: rgba(134, 113, 153, 1);
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom:30px
@@ -32,7 +32,7 @@ body header {
 }
 
 body header h1 {
-    color: rebeccapurple;
+    color: rgba(24, 27, 119, 1);
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -59,4 +59,7 @@ body header nav ul li {
 body header nav ul li a {
     text-decoration: none;
     color: paleturquoise;
+}
+body section div.Introduction p{
+    margin-bottom:-15px;
 }
