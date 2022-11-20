@@ -1,5 +1,5 @@
 html {
-    background: url('DMG_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+    background: url('../DMG_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
     background-color: darkslategray
 }
 
@@ -12,22 +12,6 @@ body {
 
 a {
     text-decoration:none;
-}
-
-h3 a {
-    color: violet;
-}
-
-h1 {
-    margin-left: 10px
-}
-
-h2 {
-    margin-left: 15px;
-}
-
-h3 {
-    margin-left: 20px;
 }
 
 body > nav {
@@ -49,7 +33,7 @@ body > nav > ul > li > a {
 }
 
 body header {
-    background: url('../space.jpg')
+    background: url('../../space.jpg')
 }
 
 body header h1 {
@@ -80,28 +64,4 @@ body header nav ul li {
 body header nav ul li a {
     text-decoration: none;
     color: paleturquoise;
-}
-
-body section div.introduction p {
-    margin-bottom: -15px;
-}
-
-body section div.the_dungeon_master {
-    margin-top: 30px;
-}
-
-body section div.the_dungeon_master h2 {
-    margin-bottom: -15px;
-}
-
-body section div.the_dungeon_master p {
-    margin-bottom: -15px;
-}
-
-body section div.use_book h3 {
-    margin-top: 20px;
-}
-
-body section div.use_book p {
-    margin-bottom: -15px;
 }
