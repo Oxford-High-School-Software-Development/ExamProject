@@ -1,0 +1,10 @@
+div.MM_ul_parts, footer {
+    display: none;
+}
+
+img {
+    border: 2px solid black;
+    display: block;
+    margin: auto auto;
+    width: 65%;
+}

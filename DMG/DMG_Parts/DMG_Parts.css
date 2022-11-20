@@ -1,20 +1,17 @@
-@charset "UTF-8";
-
 html {
-    background: url('MM_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+    background: url('../DMG_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+    background-color: darkslategray
 }
 
 body {
     background-color: darkcyan;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom:30px;
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
+    margin-bottom:30px
 }
 
-body.altMargin {
-    margin-top: -40px;
+a {
+    text-decoration:none;
 }
 
 body > nav {
@@ -22,7 +19,7 @@ body > nav {
 }
 
 body > nav > ul {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -36,11 +33,11 @@ body > nav > ul > li > a {
 }
 
 body header {
-    background: url('../space.jpg');
-    border-radius: 10px;
+    background: url('../../space.jpg')
 }
 
 body header h1 {
+    color: rebeccapurple;
     margin-left: 250px;
     margin-right: 250px;
 }
