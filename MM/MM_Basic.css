@@ -111,3 +111,8 @@ body {
     color: black;
   }
 
+  blockquote {
+    width: fit-content;
+    height: fit-content;
+  }
+
