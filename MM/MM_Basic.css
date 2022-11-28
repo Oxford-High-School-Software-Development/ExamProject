@@ -107,7 +107,7 @@ body {
         color: paleturquoise;
   }
 
-  a.outside_link:visited {
-    color: turquoise;
+  div.MM_ul_parts ul li a:visited {
+    color: black;
   }
 

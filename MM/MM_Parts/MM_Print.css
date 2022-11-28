@@ -1,4 +1,4 @@
-div.MM_ul_parts, footer, ul, li, a {
+div.MM_ul_parts {
     display: none;
 }
 
@@ -16,4 +16,36 @@ img {
 table {
     align-items: center;
     justify-content: center;
+}
+th, td {
+    white-space: normal;
+}
+
+div.big_table table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+footer {
+    border-collapse: collapse;
+}
+
+body {
+    border-collapse: collapse;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
