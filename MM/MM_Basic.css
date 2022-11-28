@@ -58,8 +58,8 @@ footer {
 /* Flex */
 
 body {
-    -webkit-flex: 2 1 351px;
-    flex: 2 1 351px;
+    -webkit-flex: 2 1 480px;
+    flex: 2 1 480px;
   }
 
   /* Block Quotes */

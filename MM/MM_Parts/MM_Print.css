@@ -1,5 +1,9 @@
-div.MM_ul_parts, footer {
+div.MM_ul_parts, footer, ul, li, a {
     display: none;
+}
+
+html.nomorebackground {
+    background-image: none;
 }
 
 img {
@@ -7,4 +11,9 @@ img {
     display: block;
     margin: auto auto;
     width: 65%;
+}
+
+table {
+    align-items: center;
+    justify-content: center;
 }
