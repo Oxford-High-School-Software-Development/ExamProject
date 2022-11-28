@@ -3,30 +3,38 @@
     <head>
          <title>Player's Handbook</title>
          <link href="PH_Layout.css" rel="stylesheet"/>
+         <link href="PH_Basic.css" rel="stylesheet"/>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+            </style>
     </head>
 
     <body>
-        <nav>
-            <ul>
-                <li><a href="PH_index.html">Player Handbook</a></li>
-                <li><a href="MM/MM_index.html">Monster Manual</a></li>
-                <li><a href="DMG/DMG_index.html">Dungeon Master's Guide</a></li>
-            </ul>
-        </nav>
         <header>
-            <h1><a href="PH_index.html">Player Handbook</a></h1>
-            <nav>
+            <h1>Player Handbook</h1>
+            <nav class="MM_ul_parts">
                 <ul>
                     <li>
-                        <a href="#">Part 1</a>
+                        <a href="#">Monster Part List ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="MM_Parts/MM_part1.html">Monster List Part 1</a></li>
+                            <li><a href="MM_Parts/MM_part2.html">Monster List Part 2</a></li>
+                            <li><a href="MM_Parts/MM_part3.html">Monster List Part 3</a></li>
+                        </ul>
                     </li>
 
                     <li>
-                        <a href="#">Part 2</a>
+                        <a href="#">Manuals ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Monster Manual</a></li>
+                            <li><a href="#">Dungeon Master's Guide</a></li>
+                        </ul>
                     </li>
-
                     <li>
-                        <a href="#">Part 3</a>
+                        <a href="MM_Parts/MM_Form.html">Form</a>
                     </li>
                 </ul>
             </nav>
@@ -60,10 +68,7 @@
             Or cast a spell to carry them over the chasm?
                 </p> 
                 <p>
-                    Crack Drugs LoVEEEE THOSSSEEE
                 </p>
-
-
             </div>
         </section>
     </body>
