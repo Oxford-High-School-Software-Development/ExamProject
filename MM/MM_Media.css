@@ -1,37 +1,85 @@
 @charset "UTF-8";
 
 @media only screen and (max-width: 480px) {
-    body > header > nav.MM_ul_parts > ul {
-        display: -webkit-inline-flex;
-        display: inline-flex;
-        -webkit-flex-flow:  wrap;
-        flex-flow:  wrap;
-        flex-wrap: row wrap;
+    html.nomorebackground {
+        background-image: none;
+    }
+    nav.MM_ul_parts {
+        text-align: center;
+        display: inline-block;
+      }
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        max-width: 375px;
+      }
+
+      html {
+        margin-bottom: 0px;
+      }
+
+      h1 {
+        vertical-align: middle;
+        padding-right: 100px;
+        color: paleturquoise;
+      }
+
+      img {
+        width: 400px;
+      }
+
+      body.altMargin2 {
+        margin-top: -21px;
     }
 }
 
-@media only screen and (min-width: 481px) {
-    body > header > nav.MM_ul_parts > ul {
-        display: -webkit-inline-flex;
-        display: inline-flex;
-        -webkit-flex-flow: wrap;
-        flex-flow: wrap;
-        flex-wrap: row wrap;
-    }
-    nav.MM_ul_parts {
-        height: 240px;
-    }
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    html.nomorebackground {
+        background-image: none;
+        }
+
+      html, body {
+          height: 100%;
+      }
+      
+      html {
+          display: table;
+          margin: auto;
+      }
+      
+      body {
+          display: table-cell;
+          vertical-align: middle;
+      }
 }
 
 @media only screen and (min-width: 769px) {
-    body > header > nav.MM_ul_parts > ul {
-        display: -webkit-inline-flex;
-        display: inline-flex;
-        -webkit-flex-flow: wrap;
-        flex-flow:  wrap;
-        flex-wrap: row wrap;
+  html {
+      background: url('MM_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+  }
+} 
+
+@media only screen and (width: 912px) and (height: 1368px) {
+  html.nomorebackground {
+    background-image: none;
     }
-    nav.MM_ul_parts {
-        height: 160px;
-      }
+
+  html, body {
+      height: 100%;
+  }
+  
+  html {
+      display: table;
+      margin: auto;
+  }
+  
+  body {
+      display: table-cell;
+      vertical-align: middle;
+  }
 }
