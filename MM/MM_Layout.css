@@ -68,3 +68,8 @@ body header nav ul li a {
     text-decoration: none;
     color: paleturquoise;
 }
+
+img {
+    filter: sepia(100%);
+    -webkit-filter: sepia(100%);
+}

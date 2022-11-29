@@ -3,12 +3,11 @@
     <head>
         <title>Dungeon Master's Guide</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="reset.css" rel="stylesheet" media="all" />
-        <link href="../MM_Layout.css" rel="stylesheet" media="all" />
-        <link href="../MM_Basic.css" rel="stylesheet" media="all"/>
-        <link href="../MM_Media.css" rel="stylesheet" media="all"/>
-        <link href="MM_Tables.css" rel="stylesheet" media="all"/>
-        <link href="MM_Print.css" rel="stylesheet" media="print" />
+        <link href="MM_Parts/reset.css" rel="stylesheet" media="all" />
+        <link href="MM_Layout.css" rel="stylesheet" media="all" />
+        <link href="MM_Basic.css" rel="stylesheet" media="all"/>
+        <link href="MM_Media.css" rel="stylesheet" media="all"/>
+        <link href="MM_Parts/MM_Print.css" rel="stylesheet" media="print" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -22,22 +21,22 @@
                     <li>
                         <a href="#">Monster Part List ▼</a>
                         <ul class="dropdown">
-                            <li><a href="MM_part1.html">Monster List Part 1</a></li>
-                            <li><a href="MM_part2.html">Monster List Part 2</a></li>
-                            <li><a href="MM_part3.html">Monster List Part 3</a></li>
+                            <li><a href="MM_Parts/MM_part1.html">Monster List Part 1</a></li>
+                            <li><a href="MM_Parts/MM_part2.html">Monster List Part 2</a></li>
+                            <li><a href="MM_Parts/MM_part3.html">Monster List Part 3</a></li>
                         </ul>
                     </li>
 
                     <li>
                         <a href="#">Manuals ▼</a>
                         <ul class="dropdown"> 
-                            <li><a href="../../PH_index.html">Player Handbook</a></li>
-                            <li><a href="../MM_index.html">Monster Manual</a></li>
-                            <li><a href="../../DMG/DMG_index.html">Dungeon Master's Guide</a></li>
+                            <li><a href="PH_index.html">Player Handbook</a></li>
+                            <li><a href="MM_index.html">Monster Manual</a></li>
+                            <li><a href="../DMG/DMG_index.html">Dungeon Master's Guide</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="MM_Parts/../MM_Form.html">Form</a>
+                        <a href="#">Form</a>
                     </li>
                 </ul>
             </nav>
@@ -46,7 +45,45 @@
             <form id="survey">
                 <fieldset>
                     <legend>Information to Submit</legend>
+                <div class="flexrow">
+                <label for="name">Name*</label>
+                <input name="Name" id="name" type="text" required />
+                </div>
+
+                <div class="flexrow">
+                <label for="address">Street address</label>
+                <input name="Address" id="address" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="city">City</label>
+                <input name="City" id="city" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="state">State</label>
+                <input name="State" id="state" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="code">Postal code</label>
+                <input name="Code" id="code" type="text" />
+                </div>
+
+                <div class="flexrow"></div>
+                <label for="phone">Phone number</label>
+                <input name="Phone" id="phone" type="tel" />
+                <div class="flexrow">
+                <label for="email">E-mail*</label>
+                <input name="Email" id="email" type="email" required />
+                </div>
                 </fieldset>
             </form>
         </body>
+        <br />
+    <footer>
+        <br />
+        <h3 id="footerh3">Dylan Wishon</h3> <a class="outside_link" href="https://online.anyflip.com/duex/ixpz/mobile/index.html#p=1" target="_blank" alt=""><h3 id="footerh3">Monster Manual Book (Online Verison)</h3></a>
+        <br />
+    </footer>
 </html>
