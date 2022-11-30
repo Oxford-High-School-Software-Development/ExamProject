@@ -66,21 +66,26 @@ body {
   blockquote {
     border: none;
     display: block;
-    background: linear-gradient(345deg, white, rgb(224, 201, 166) 80%);
     quotes: "\201C" "\201D";
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background: url('../space.jpg');
+    color: white;
+    float: middle;
   }
 
   blockquote:before {
     content: open-quote;
     font-weight: bold;
-    color: black;
+    color: white;
     align-items: left;
   }
   
   blockquote:after {
     content: close-quote;
     font-weight: bold;
-    color: black;
+    color: white;
   }
 
   blockquote p {
@@ -107,7 +112,35 @@ body {
         color: paleturquoise;
   }
 
-  a.outside_link:visited {
-    color: turquoise;
+  div.MM_ul_parts ul li a:visited {
+    color: black;
   }
 
+/*Form layout */
+div.formRow {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: fit-content;
+  height: fit-content
+}
+
+label, input {
+  display: block;
+}
+
+form#survey > fieldset {
+  border-radius: 10px;
+}
+/* Button */
+div#button {
+  text-align: center;
+  width: 100%;
+}
+
+input[type='submit'] {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 15px;
+}
