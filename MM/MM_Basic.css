@@ -66,21 +66,26 @@ body {
   blockquote {
     border: none;
     display: block;
-    background: linear-gradient(345deg, white, rgb(224, 201, 166) 80%);
     quotes: "\201C" "\201D";
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background: url('../space.jpg');
+    color: white;
+    float: middle;
   }
 
   blockquote:before {
     content: open-quote;
     font-weight: bold;
-    color: black;
+    color: white;
     align-items: left;
   }
   
   blockquote:after {
     content: close-quote;
     font-weight: bold;
-    color: black;
+    color: white;
   }
 
   blockquote p {
@@ -111,11 +116,6 @@ body {
     color: black;
   }
 
-  blockquote {
-    width: fit-content;
-    height: fit-content;
-  }
-
 /*Form layout */
 div.formRow {
   display: -webkit-flex;
@@ -123,6 +123,8 @@ div.formRow {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   margin: 7px 0px;
+  width: fit-content;
+  height: fit-content
 }
 
 label, input {

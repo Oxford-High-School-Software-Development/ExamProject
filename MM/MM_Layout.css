@@ -4,6 +4,8 @@ html {
     background: url('MM_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
 }
 
+
+
 body {
     background-color: darkcyan;
     margin-left: 200px;
@@ -70,6 +72,6 @@ body header nav ul li a {
 }
 
 img {
-    filter: sepia(100%);
-    -webkit-filter: sepia(100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
