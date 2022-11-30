@@ -7,7 +7,7 @@ html {
 
 
 body {
-    background-color: darkcyan;
+    background: radial-gradient(circle closest-corner at center center,  darkcyan,  rgb(0, 109, 109), rgb(0, 99, 99));
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom:30px;
