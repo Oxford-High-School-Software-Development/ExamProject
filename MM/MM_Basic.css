@@ -14,8 +14,9 @@ nav.MM_ul_parts ul li a:hover {
 
 /* Navbar */
 nav.MM_ul_parts ul {
-    padding: 0px;
     margin: 0px;
+    text-align: center;
+    padding-right: 85px;
 }
 
 nav.MM_ul_parts ul li {
@@ -94,7 +95,6 @@ body {
 
   h1 {
     text-align: center;
-    padding-left: 100px;
     color: paleturquoise;
   }
 
