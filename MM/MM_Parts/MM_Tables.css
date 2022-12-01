@@ -13,8 +13,9 @@ div.big_table table  {
     text-align: center;
     color: black;
     border-radius: 10px;
-    float: center;
     overflow: scroll;
+    box-shadow: black 15px 0px 25px,
+                black -15px 0px 25px;
 }
 
 div.big_table col {
@@ -28,7 +29,7 @@ div.big_table caption {
     font-size: 16pt;
     font-weight: bold;
     padding: 10px;
-    float: center;
+    text-align: center;
 }
 
 table.centerpls {

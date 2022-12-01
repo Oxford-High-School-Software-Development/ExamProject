@@ -1,4 +1,4 @@
-div.MM_ul_parts, footer, ul, li, a {
+/*div.MM_ul_parts {
     display: none;
 }
 
@@ -16,4 +16,71 @@ img {
 table {
     align-items: center;
     justify-content: center;
+} */
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 9px;
+    border-collapse: collapse;
+    display: table-cell;
+    vertical-align: middle;
+}
+th, td {
+    white-space: normal;
+}
+
+div.big_table table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+footer {
+    border-collapse: collapse;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+@page {
+    size: 8.5in 11in portrait;
+    margin: 10in;
+}
+
+nav.MM_ul_parts, aside, footer {
+    display: none;
+}
+
+body > header > img {
+    display: block;
+    width: 100%;
+ }
+
+h1 {
+    line-height: 30pt;
+}
+
+a::after {
+    content: " (" attr(href) " )";
+    word-wrap: break-word;
+}
+
+article:nth-of-type(n+2) {
+    page-break-before: always;
+}
+
+img, ol, ul {
+    page-break-inside: avoid;
+}
+
+p {
+    orphans: 3;
+    widows: 3;
 }
