@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DM's Guide Part 2</title>
+        <link href="../DMG_Parts/DMG_Parts.css" rel="stylesheet"/>
+        <link href="../DMG_Basic.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="../../PH_index.html">Player Handbook</a></li>
+                    <li><a href="../../MM/MM_index.html">Monster Manual</a></li>
+                    <li><a href="../DMG_index.html">Dungeon Master's Guide</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1><a href="DMG_index.html">Dungeon Master's Guide</a></h1>
+                <nav class="DMG_ul_parts">
+                    <ul>
+                        <li>
+                            <a href="#">Dungeon Master Part List ▼</a>
+                            <ul class="dropdown">
+                                <li><a href="DMG_Part1.html">DM's Guide Part 1</a></li>
+                                <li><a href="DMG_Part2.html">DM's Guide Part 2</a></li>
+                                <li><a href="DMG_Part3.html">DM's Guide Part 3</a></li>
+                                <li><a href="../DMG_Parts/DMG_extras.html">DM's Guide Appendix</a></li>
+                            </ul>
+                        </li>
+    
+                        <li>
+                            <a href="#">Guides ▼</a>
+                            <ul class="dropdown"> 
+                                <li><a href="../../PH_index.html">Player Handbook</a></li>
+                                <li><a href="../../MM/MM_index.html">Monster Manual</a></li>
+                                <li><a href="../DMG_index.html">Dungeon Master's Guide</a></li>
+                            </ul>
+                        </li>
+            </header>
+
+            <p>Required values are marked by an asterisk (*)</p>
+            <form id="survey">
+                <fieldset>
+                    <legend>Information To Submit</legend>
+                <div class="flexrow">
+                <label for="name">Name*</label>
+                <input name="Name" id="name" type="text" required />
+                </div>
+ 
+                <div class="flexrow">
+                    <label for="date">Date of Birth*</label>
+                    <input name="dateofbirth" id="date" type="date" required />
+                </div>
+   
+                <div class="flexrow">
+                <label for="address">Street address</label>
+                <input name="Address" id="address" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="city">City</label>
+                <input name="City" id="city" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="state">State</label>
+                <input name="State" id="state" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="code">Postal code</label>
+                <input name="Code" id="code" type="text" />
+                </div>
+
+                <div class="flexrow">
+                <label for="phone">Phone number</label>
+                <input name="Phone" id="phone" type="tel" />
+                </div>
+
+                <div class="flexrow">
+                <label for="email">E-mail*</label>
+                <input name="Email" id="email" type="email" required />
+                </div>
+
+                <div class="flexrow">
+                    <label for="mail">Add to E-mail listing to update you on updates</label>
+                    <input name="mailMe" id="mail" value="yes" type="checkbox" />
+                </div>
+                </fieldset>
+    </body>
+</html>

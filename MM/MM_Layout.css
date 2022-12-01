@@ -4,8 +4,10 @@ html {
     background: url('MM_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
 }
 
+
+
 body {
-    background-color: darkcyan;
+    background: radial-gradient(circle closest-corner at center center,  darkcyan,  rgb(0, 109, 109), rgb(0, 99, 99));
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom:30px;
@@ -67,4 +69,9 @@ body header nav ul li {
 body header nav ul li a {
     text-decoration: none;
     color: paleturquoise;
+}
+
+img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
