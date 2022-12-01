@@ -6,7 +6,9 @@ body {
     background-color: rgba(134, 113, 153, 1);
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom:30px
+    margin-bottom:30px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 body > nav {
@@ -28,11 +30,12 @@ body > nav > ul > li > a {
 }
 
 body header {
-    background: url('space.jpg')
+    background: url('space.jpg') ;
+    border-radius: 10px;
 }
 
 body header h1 {
-    color: rgba(24, 27, 119, 1);
+    color: rgb(251, 255, 0);
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -62,4 +65,18 @@ body header nav ul li a {
 }
 body section div.Introduction p{
     margin-bottom:-15px;
+}
+img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+b{
+    font-weight: 100;
+}
+h1{
+   text-align: center;
+}
+p{
+    color:rgb(32, 23, 23);
 }
