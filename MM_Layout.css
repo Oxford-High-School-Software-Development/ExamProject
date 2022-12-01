@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+html {
+    background: url('MM_background.jpg') center center / auto auto no-repeat fixed content-box content-box;
+}
+
+
+
+body {
+    background: radial-gradient(circle closest-corner at center center,  darkcyan,  rgb(0, 109, 109), rgb(0, 99, 99));
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:30px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.altMargin {
+    margin-top: -40px;
+}
+
+body > nav {
+    margin-bottom: -20px;
+}
+
+body > nav > ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body > nav > ul > li {
+    list-style: none;
+}
+
+body > nav > ul > li > a {
+    text-decoration: none;
+}
+
+body header {
+    background: url('../space.jpg');
+    border-radius: 10px;
+}
+
+body header h1 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+body header h1 a {
+    text-decoration: none;
+}
+
+body header nav {
+    margin-right: 30px;
+}
+
+body header nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;   
+
+}
+
+body header nav ul li {
+    list-style: none;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    color: paleturquoise;
+}
+
+img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
