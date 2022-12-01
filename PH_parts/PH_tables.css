@@ -2,7 +2,7 @@
 
 div.racesTable thead.traits th:first-of-type{
     background-color: rgba(138, 43, 226,5);
-    border-radius:30%;
+    border-radius:5%;
 }
 div.racesTable h3{
     text-align: center;
@@ -13,4 +13,16 @@ table{
     border-radius:3%;
     box-shadow: rgba(24, 27, 119, 1) 0px 0px 10px 8px;
     width:100%;
+}
+ thead th{
+    float: left;
+    margin-left: 30px;
+    padding-bottom:7px;
+}
+td{
+    text-align:center;
+    display:block;
+}
+tbody{
+    display:inline-table;
 }
