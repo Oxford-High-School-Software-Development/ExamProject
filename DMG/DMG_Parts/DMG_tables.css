@@ -10,7 +10,16 @@ table tr th {
     margin-right:0px;
 }
 
-table tr td {
-    border:2px solid;
-    border-color: darkblue;
+table tr.odd {
+    background-color: limegreen
+}
+
+table tfoot {
+    align-items: center;
+}
+
+table tfoot td {
+    background-color: magenta;
+    border: 3px solid;
+    border-color: white
 }
