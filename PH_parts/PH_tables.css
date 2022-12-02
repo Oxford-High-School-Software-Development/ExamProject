@@ -1,9 +1,4 @@
 @charset "UTF-8";
-
-div.racesTable thead.traits th:first-of-type{
-    background-color: rgba(138, 43, 226,5);
-    border-radius:5%;
-}
 div.racesTable h3{
     text-align: center;
     text-shadow: darkcyan 13px 0px 3px;
@@ -14,15 +9,26 @@ table{
     box-shadow: rgba(24, 27, 119, 1) 0px 0px 10px 8px;
     width:100%;
 }
- thead th{
-    float: left;
-    margin-left: 30px;
-    padding-bottom:7px;
+thead, tbody{
+    text-align:left;
 }
-td{
+tbody th{
     text-align:center;
-    display:block;
+    border-right: 5px solid black;
 }
-tbody{
-    display:inline-table;
+thead th:first-of-type{
+    text-align:center;
+    color:mediumslateblue;
+    font-size: large;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+tbody tr td#evil{
+    color:darkred;
+}
+tbody tr td#neutral{
+    color:rgb(58, 58, 58);
+}
+tbody tr td#good{
+    color:darkslateblue;
 }
