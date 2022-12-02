@@ -15,6 +15,7 @@ nav.MM_ul_parts ul li a:hover {
 /* Navbar */
 nav.MM_ul_parts ul {
     margin: 0px;
+    padding: 0;
     text-align: center;
     vertical-align: middle;
 }
@@ -45,12 +46,20 @@ nav.MM_ul_parts ul li a:hover {
 
 nav.MM_ul_parts ul li:hover ul.dropdown {
     display: block;
-    background: url('../space.jpg');
+    background: url('space.jpg');
 }
 
 /* Footer Styles */
 footer {
     float: bottom;
+    background: url('space.jpg');
+    border-radius: 10px;
+}
+
+h3#footerh3 {
+      vertical-align: middle;
+      text-align: center;
+      color: paleturquoise;
 }
 
 /* Grid */
@@ -100,16 +109,6 @@ body {
 
   body {
     min-width: 728px;
-  }
-  footer {
-    background: url('../space.jpg');
-    border-radius: 10px;
-  }
-
-  h3#footerh3 {
-        vertical-align: middle;
-        text-align: center;
-        color: paleturquoise;
   }
 
 
@@ -161,12 +160,15 @@ ul li.ricebowl {
   list-style-image: url(Rice_Bowl.jpg);
 }
 
-ul li.monster a {
+ul li.rating a:link {
+  color: turquoise;
   text-decoration: none;
 }
 
-ul li.rating a {
+ul li.monster a:link {
+  color: turquoise;
   text-decoration: none;
 }
+
 
 

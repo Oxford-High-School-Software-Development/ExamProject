@@ -38,7 +38,7 @@ body > nav > ul > li > a {
 }
 
 body header {
-    background: url('../space.jpg');
+    background: url('space.jpg');
     border-radius: 10px;
 }
 
