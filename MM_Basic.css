@@ -165,8 +165,41 @@ ul li.rating a:link {
   text-decoration: none;
 }
 
+ul li.rating a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+ul li.rating a:hover {
+  color: turquoise;
+  text-decoration: none;
+}
+
+ul li.rating a:active {
+  color: turquoise;
+  text-decoration: none;
+}
+
+
+
+
 ul li.monster a:link {
   color: turquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+ul li.monster a:hover {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:active {
+  color: paleturquoise;
   text-decoration: none;
 }
 
