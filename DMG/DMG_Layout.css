@@ -105,3 +105,18 @@ body section div.use_book h3 {
 body section div.use_book p {
     margin-bottom: -15px;
 }
+
+section.Vcontent {
+    background-color: maroon;
+    align-items: center;
+    margin-right: 450px;
+    border: 2px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+footer {
+    background: url('../space.jpg');
+    border-radius: 10px;
+    color: white;
+  }
