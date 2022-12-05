@@ -1,22 +1,7 @@
-/*div.MM_ul_parts {
+div.MM_ul_parts {
     display: none;
 }
 
-html.nomorebackground {
-    background-image: none;
-}
-
-img {
-    border: 2px solid black;
-    display: block;
-    margin: auto auto;
-    width: 65%;
-}
-
-table {
-    align-items: center;
-    justify-content: center;
-} */
 body {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -31,7 +16,7 @@ th, td {
 
 div.big_table table {
     border-collapse: collapse;
-    border-spacing: 10px;
+    border-spacing: 20px;
     white-space: normal;
     word-wrap: break-word;
 }
@@ -83,4 +68,18 @@ img, ol, ul {
 p {
     orphans: 3;
     widows: 3;
+}
+
+blockquote {
+    display: none;
+}
+
+h1#gone {
+    visibility: hidden;
+}
+
+table {
+    table-layout: auto;
+    width: fit-content;
+    height: fit-content;
 }

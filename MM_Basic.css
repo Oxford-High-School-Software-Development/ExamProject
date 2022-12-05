@@ -80,9 +80,10 @@ body {
     width: fit-content;
     height: fit-content;
     border-radius: 10px;
-    background: url('../space.jpg');
+    background: url('space.jpg');
     color: white;
     float: middle;
+    text-align: center;
   }
 
   blockquote:before {
@@ -101,9 +102,13 @@ body {
   blockquote p {
     display: inline;
   }
-
+/* Basics */
   h1 {
     text-align: center;
+    color: paleturquoise;
+  }
+
+  h2 {
     color: paleturquoise;
   }
 
@@ -161,7 +166,7 @@ ul li.ricebowl {
 }
 
 ul li.rating a:link {
-  color: turquoise;
+  color: paleturquoise;
   text-decoration: none;
 }
 
@@ -171,12 +176,12 @@ ul li.rating a:visited {
 }
 
 ul li.rating a:hover {
-  color: turquoise;
+  color: paleturquoise;
   text-decoration: none;
 }
 
 ul li.rating a:active {
-  color: turquoise;
+  color: paleturquoise;
   text-decoration: none;
 }
 
@@ -184,7 +189,7 @@ ul li.rating a:active {
 
 
 ul li.monster a:link {
-  color: turquoise;
+  color: paleturquoise;
   text-decoration: none;
 }
 
@@ -203,5 +208,7 @@ ul li.monster a:active {
   text-decoration: none;
 }
 
-
-
+/* Center p */
+p.center {
+  text-align: center;
+}
