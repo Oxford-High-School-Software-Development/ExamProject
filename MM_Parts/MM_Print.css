@@ -2,6 +2,10 @@ div.MM_ul_parts {
     display: none;
 }
 
+div.big_table table {
+    box-shadow: none;
+}
+
 body {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -36,7 +40,7 @@ html {
 
 @page {
     size: 8.5in 11in portrait;
-    margin: 10in;
+    margin: 20px;
 }
 
 nav.MM_ul_parts, aside, footer {

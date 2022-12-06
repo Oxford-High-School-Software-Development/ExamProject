@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* Small Changes*/
+
+
+/* This is cool transition with the link */
+nav.MM_ul_parts ul li a {
+    color: paleturquoise;
+    transition: color 0.5s ease-in 0.5s;
+}
+
+nav.MM_ul_parts ul li a:hover {
+    color: white;
+}
+
+/* Navbar */
+nav.MM_ul_parts ul {
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav.MM_ul_parts ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+
+nav.MM_ul_parts ul li a {
+    display: block;
+    text-align: center;
+}
+
+nav.MM_ul_parts ul li ul.dropdown li {
+    display: block;
+}
+nav.MM_ul_parts ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+
+nav.MM_ul_parts ul li a:hover {
+    background-color: none;
+}
+
+nav.MM_ul_parts ul li:hover ul.dropdown {
+    display: block;
+    background: url('../space.jpg');
+}
+
+/* Footer Styles */
+footer {
+    float: bottom;
+    background: url('../space.jpg');
+    border-radius: 10px;
+}
+
+h3#footerh3 {
+      vertical-align: middle;
+      text-align: center;
+      color: paleturquoise;
+}
+
+/* Grid */
+
+
+/* Flex */
+
+body {
+    -webkit-flex: 2 1 480px;
+    flex: 2 1 480px;
+  }
+
+  /* Block Quotes */
+  blockquote {
+    border: none;
+    display: block;
+    quotes: "\201C" "\201D";
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background: url('../space.jpg');
+    color: white;
+    float: middle;
+    text-align: center;
+  }
+
+  blockquote:before {
+    content: open-quote;
+    font-weight: bold;
+    color: white;
+    align-items: left;
+  }
+  
+  blockquote:after {
+    content: close-quote;
+    font-weight: bold;
+    color: white;
+  }
+
+  blockquote p {
+    display: inline;
+  }
+/* Basics */
+  h1 {
+    text-align: center;
+    color: paleturquoise;
+  }
+
+  h2 {
+    color: paleturquoise;
+  }
+
+  body {
+    min-width: 728px;
+  }
+
+
+/*Form layout */
+div.formRow {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: fit-content;
+  height: fit-content
+}
+
+label, input {
+  display: block;
+}
+
+form#survey > fieldset {
+  border-radius: 10px;
+}
+/* Button */
+div#button {
+  text-align: center;
+  width: 100%;
+}
+
+input[type='submit'] {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 15px;
+}
+
+/* Audio and Video Styles */
+
+audio {
+  display: block;
+}
+
+/* List Styles */
+ul li.monster {
+  list-style-image: url(images.jpg);
+}
+
+ul li.rating {
+  list-style-image: url(starrating.png);
+}
+
+ul li.ricebowl {
+  list-style-image: url(Rice_Bowl.jpg);
+}
+
+ul li.rating a:link {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.rating a:visited {
+  color: turquoise;
+  text-decoration: none;
+}
+
+ul li.rating a:hover, ul li.rating a:active {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:link {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:visited {
+  color: turquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:hover, ul li.monster a:active {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+/* Center p */
+p.center {
+  text-align: center;
+}
+
+@page {
+  display: grid;
+}
