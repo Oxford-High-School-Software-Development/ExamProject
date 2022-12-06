@@ -1,6 +1,11 @@
 table {
     border:8px solid;
     border-color: black;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(24, 27, 119, 1) 0px 0px 10px 8px;
 }
 
 table tr th {
@@ -16,6 +21,7 @@ table tr.odd {
 
 table tfoot {
     align-items: center;
+    float:right;
 }
 
 table tfoot td {
