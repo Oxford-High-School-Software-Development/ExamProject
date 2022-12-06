@@ -15,8 +15,9 @@ nav.MM_ul_parts ul li a:hover {
 /* Navbar */
 nav.MM_ul_parts ul {
     margin: 0px;
+    padding: 0;
     text-align: center;
-    padding-right: 85px;
+    vertical-align: middle;
 }
 
 nav.MM_ul_parts ul li {
@@ -51,6 +52,14 @@ nav.MM_ul_parts ul li:hover ul.dropdown {
 /* Footer Styles */
 footer {
     float: bottom;
+    background: url('../space.jpg');
+    border-radius: 10px;
+}
+
+h3#footerh3 {
+      vertical-align: middle;
+      text-align: center;
+      color: paleturquoise;
 }
 
 /* Grid */
@@ -74,6 +83,7 @@ body {
     background: url('../space.jpg');
     color: white;
     float: middle;
+    text-align: center;
   }
 
   blockquote:before {
@@ -92,29 +102,20 @@ body {
   blockquote p {
     display: inline;
   }
-
+/* Basics */
   h1 {
     text-align: center;
+    color: paleturquoise;
+  }
+
+  h2 {
     color: paleturquoise;
   }
 
   body {
     min-width: 728px;
   }
-  footer {
-    background: url('../space.jpg');
-    border-radius: 10px;
-  }
 
-  h3#footerh3 {
-        vertical-align: middle;
-        text-align: center;
-        color: paleturquoise;
-  }
-
-  div.MM_ul_parts ul li a:visited {
-    color: black;
-  }
 
 /*Form layout */
 div.formRow {
@@ -143,4 +144,62 @@ input[type='submit'] {
   font-size: 1.2em;
   padding: 5px;
   margin: 15px;
+}
+
+/* Audio and Video Styles */
+
+audio {
+  display: block;
+}
+
+/* List Styles */
+ul li.monster {
+  list-style-image: url(images.jpg);
+}
+
+ul li.rating {
+  list-style-image: url(starrating.png);
+}
+
+ul li.ricebowl {
+  list-style-image: url(Rice_Bowl.jpg);
+}
+
+ul li.rating a:link {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.rating a:visited {
+  color: turquoise;
+  text-decoration: none;
+}
+
+ul li.rating a:hover, ul li.rating a:active {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:link {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:visited {
+  color: turquoise;
+  text-decoration: none;
+}
+
+ul li.monster a:hover, ul li.monster a:active {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+/* Center p */
+p.center {
+  text-align: center;
+}
+
+@page {
+  display: grid;
 }
