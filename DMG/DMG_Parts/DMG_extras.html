@@ -2,9 +2,15 @@
 <html>
     <head>
         <title>DM's Guide Appendix</title>
-        <link href="DMG_Parts.css" rel="stylesheet"/>
-        <link href="../DMG_Basic.css" rel="stylesheet"/>
-        <link href="DMG_tables.css" rel="stylesheet" />
+        <link href="../DMG_Layout.css" rel="stylesheet" media="all"/>
+        <link href="DMG_Parts.css" rel="stylesheet" media="all"/>
+        <link href="../DMG_Basic.css" rel="stylesheet" media="all"/>
+        <link href="DMG_tables.css" rel="stylesheet" media="all"/>
+        <link href="../DMG_Media.css" rel="stylesheet" media="screens"/>
+        <link href="../MM_Print.css" rel="stylesheet" media="print" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap'); </style>
     </head>
 
     <body>
@@ -14,10 +20,11 @@
                     <li><a href="../../PH_index.html">Player Handbook</a></li>
                     <li><a href="../../MM/MM_index.html">Monster Manual</a></li>
                     <li><a href="../DMG_index.html">Dungeon Master's Guide</a></li>
+                    <li><a href="../SignUp/LogIn.html">Log In</a></li>
                 </ul>
             </nav>
             <header>
-                <h1><a href="DMG_index.html">Dungeon Master's Guide</a></h1>
+                <h1><a href="../DMG_index.html">Dungeon Master's Guide</a></h1>
                 <nav class="DMG_ul_parts">
                     <ul>
                         <li>
@@ -40,14 +47,17 @@
                         </li>
             </header>
             <div>
-                <h1>Monster Features</h1>
                 <table>
+                    <caption><h1>Monster Features</h1></caption>
+                    <thead>
                     <tr>
                         <th>Name</th>
                         <th>Example Monster</th>
                         <th>Effect on Challenge Rating</th>
                     </tr>
-                    <tr>
+                    </thead>
+                    <tbody>
+                    <tr class="odd">
                         <td>Aggressive</td>
                         <td>Orc</td>
                         <td>Increase the monster's effective per-round damage out by 2</td>
@@ -57,7 +67,7 @@
                         <td>Doppelganger</td>
                         <td>Increase the monster's effective attack bonus by 1</td>
                     </tr>
-                    <tr>
+                    <tr class="odd">
                         <td>Amorphous</td>
                         <td>Black pudding</td>
                         <td>N/A</td>
@@ -67,7 +77,7 @@
                         <td>Kou-toa</td>
                         <td>N/A</td>
                     </tr>
-                    <tr>
+                    <tr class="odd">
                         <td>Angelic Weapons</td>
                         <td>Deva</td>
                         <td>Increase the monster's effective per-round damage by the amount noted in the trait</td>
@@ -77,12 +87,124 @@
                         <td>Flying sword</td>
                         <td>N/A</td>
                     </tr>
-                    <tr>
+                    <tr class="odd">
                         <td>Avoidance</td>
                         <td>Demilich</td>
                         <td>Increase the monster's effective AC by 1</td>
                     </tr>
+                    <tr>
+                        <td>Blind Senses</td>
+                        <td>Grimlock</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Blood Frenzy</td>
+                        <td>Sahuagin</td>
+                        <td>Increase the monster's effective AC by 1</td>
+                    </tr>
+                    <tr>
+                        <td>Breath Weapon</td>
+                        <td>Ancient black dragon</td>
+                        <td>For the purpose of determining effective damage output, assume the breath weapon hits two targes, and that each target fails its saving throw.</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Brute</td>
+                        <td>Bugbear</td> 
+                        <td>Increase the monster's  effective per-round damage output, assume the breath weapon hits two targets, and that each target fils its saving throw</td>
+                    </tr>
+                    <tr>
+                        <td>Chameleon Skin</td>
+                        <td>Trolodyte</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Change Shape</td>
+                        <td>Ancient brass dragon</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Charge</td>
+                        <td>Centaur</td>
+                        <td>Increase the monster's damage on one attack by the amount noted in that trait</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Charm</td>
+                        <td>Vampire</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                    <td>Constrict</td>
+                    <td>Constrictor snake</td>
+                    <td>Increase the monster's effective AC by 1</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Damagae Absorption</td>
+                        <td>Flesh golem</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Damage Transfer</td>
+                        <td>Darkmantle</td>
+                        <td>Double the monster's effective hit points. Add on-third of the monster's hit points to its per-round damage.</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Death Burst</td>
+                        <td>Magmin</td>
+                        <td>Increase the monster's effective damage output for 1 round by the amount noted in the trait, and assume it affects two creatures.</td>
+                    </tr>
+                    <tr>
+                        <td>Devil Sight</td>
+                        <td>Barbed devil</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Dive</td>
+                        <td>Aarakocra</td>
+                        <td>Increase the monster's effective damage on one attack by the amount noted in the trait, and assume it affects two creatures</td>
+                    </tr>
+                    <tr>
+                        <td>Echolocation</td>
+                        <td>Hook horror</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Elemental Body</td>
+                        <td>Azer</td>
+                        <td>Increase the monter's effective damage on one attack by the amount noted in the trait</td>
+                    </tr>
+                    <tr>
+                        <td>Enlarge</td>
+                        <td>Duergar</td>
+                        <td>Increase the monster's effective per-round damage by the amount noted in the trait</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Etherealness</td>
+                        <td>Night hag</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>False Appearance</td>
+                        <td>Gargoyle</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Fey Ancestry</td>
+                        <td>Drow</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3"><h3>More details on monsters can be found here: <a href="../../MM/MM_index.html">Monster Manual</a></h3></td>
+                </tfoot>
                 </table>
             </div>
+            <footer>
+                <br />"
+                <h3 id="footerh3">Matthew Gray</h3> <a class="outside_link" href="http://anyflip.com/fsfu/qjsj" target="_blank" alt=""><h3 id="footerh3">Dungeon Master's Guide Book (Online Verison)</h3></a>
+                <br />
+            </footer>
     </body>
 </html>
