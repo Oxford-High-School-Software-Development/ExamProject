@@ -1,0 +1,62 @@
+@charset "UTF-8";
+div.racesTable h3{
+    text-align: center;
+    text-shadow: darkcyan 13px 0px 3px;
+}
+div.racesTable table{
+    border:5px inset royalblue;
+    border-radius:3%;
+    box-shadow: rgba(24, 27, 119, 1) 0px 0px 10px 8px;
+    width:100%;
+}
+div.classesTable h3{
+    text-align: center;
+    text-shadow: darkorchid 13px 0px 3px;
+}
+div.classesTable table{
+    border:5px inset rgb(252, 111, 134);
+    border-radius:3%;
+    box-shadow: rgb(119, 24, 204) 0px 0px 10px 8px;
+    width:100%;
+    table-layout:fixed;
+    display:table;
+    border-spacing: 0px;
+}
+thead.traits, tbody.classes,tbody.races{
+    text-align:left;
+}
+tbody th{
+    text-align:center;
+    border-right: 5px solid black;
+}
+thead th:first-of-type{
+    text-align:center;
+    color:mediumslateblue;
+    font-size: large;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+div.classesTable thead.traits th:nth-of-type(2){
+    width: 150px;
+}
+tbody tr td#evil{
+    color:darkred;
+}
+tbody tr td#neutral{
+    color:rgb(30, 30, 30);
+}
+tbody tr td#good{
+    color:darkslateblue;
+}
+thead th{
+    border-bottom: 5px dashed darkslategrey;
+}
+div.classesTable thead.traits th:nth-of-type(3){
+    width:50px;
+}
+div.classesTable thead.traits th:nth-of-type(4){
+    width:140px;
+}
+table{
+    display:grid;
+}
