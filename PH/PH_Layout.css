@@ -1,0 +1,99 @@
+html {
+    background: url('PH_background.jpg') center center / auto auto no-repeat fixed content-box content-box rgba(1, 0, 15, 0.94);
+}
+
+body {
+    background-color: rgb(134, 113, 153);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:30px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body > nav {
+    margin-bottom: -20px;
+}
+
+body > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body > nav > ul > li {
+    list-style: none;
+}
+
+body > nav > ul > li > a {
+    text-decoration: none;
+}
+
+body header {
+    background: url('space.jpg') ;
+    border-radius: 10px;
+}
+
+body header h1 {
+    color: rgb(251, 255, 0);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+body header h1 a {
+    text-decoration: none;
+}
+
+body header nav {
+    margin-right: 30px;
+}
+
+body header nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;   
+
+}
+
+body header nav ul li {
+    list-style: none;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    color: paleturquoise;
+}
+body section div.Introduction p{
+    margin-bottom:-15px;
+}
+img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+b{
+    font-weight: 100;
+}
+h1{
+   text-align: center;
+}
+p{
+    color:rgb(32, 23, 23);
+    text-indent: 75px;
+
+}
+div.intro::first-letter{
+    font-size: 150%;
+    font-weight: 900;
+    color:rgba(255, 19, 86, 1);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+div.roll ul{
+    size: 100px;
+}
+div.roll ul{
+    list-style-image: url('d20.png');
+
+  }

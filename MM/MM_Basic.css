@@ -54,6 +54,11 @@ footer {
     float: bottom;
     background: url('../space.jpg');
     border-radius: 10px;
+    
+h3#footerh3 {
+      vertical-align: middle;
+      text-align: center;
+      color: paleturquoise;
 }
 
 h3#footerh3 {
@@ -194,6 +199,12 @@ ul li.monster a:visited {
 ul li.monster a:hover, ul li.monster a:active {
   color: paleturquoise;
   text-decoration: none;
+}
+
+
+/* Center p */
+p.center {
+  text-align: center;
 }
 
 @page {
