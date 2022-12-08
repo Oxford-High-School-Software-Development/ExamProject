@@ -54,6 +54,11 @@ footer {
     float: bottom;
     background: url('../space.jpg');
     border-radius: 10px;
+    
+h3#footerh3 {
+      vertical-align: middle;
+      text-align: center;
+      color: paleturquoise;
 }
 
 h3#footerh3 {
@@ -62,11 +67,7 @@ h3#footerh3 {
       color: paleturquoise;
 }
 
-/* Grid */
-
-
 /* Flex */
-
 body {
     -webkit-flex: 2 1 480px;
     flex: 2 1 480px;
@@ -110,6 +111,11 @@ body {
 
   h2 {
     color: paleturquoise;
+  }
+
+  h4 {
+    color: paleturquoise;
+    text-align: center;
   }
 
   body {
@@ -194,6 +200,7 @@ ul li.monster a:hover, ul li.monster a:active {
   color: paleturquoise;
   text-decoration: none;
 }
+
 
 /* Center p */
 p.center {
