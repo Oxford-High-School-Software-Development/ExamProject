@@ -4,11 +4,18 @@
          <title>Monster Manual</title>
          <link href="MM_Layout.css" rel="stylesheet" media="all"/>
          <link href="MM_Basic.css" rel="stylesheet" media="all"/>
+         <link href="MM_Media.css" rel="stylesheet" media="all"/>
+         <link href="MM_Parts/MM_Print.css" rel="stylesheet" media="print" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
-    <body class="altMargin">
+    <body class="altMargin" id="index">
         <nav>
             <ul>
+                <li><a href="../index.html">Campaigns</a></li>
+                <li><a href="DMG/SignUp/LogIn.html">Log In</a></li>
             </ul>
         </nav>
         <header>
@@ -18,16 +25,16 @@
                     <li>
                         <a href="#">Monster Part List ▼</a>
                         <ul class="dropdown">
-                            <li><a href="MM_Parts/MM_part1.html">Monster List Part 1</a></li>
-                            <li><a href="MM_Parts/MM_part2.html">Monster List Part 2</a></li>
-                            <li><a href="MM_Parts/MM_part3.html">Monster List Part 3</a></li>
+                            <li><a href="../MM_Parts/MM_part1.html">Monster List Part 1</a></li>
+                            <li><a href="../MM_Parts/MM_part2.html">Monster List Part 2</a></li>
+                            <li><a href="../MM_Parts/MM_part3.html">Monster List Part 3</a></li>
                         </ul>
                     </li>
 
                     <li>
                         <a href="#">Manuals ▼</a>
                         <ul class="dropdown"> 
-                            <li><a href="../PH_index.html">Player Handbook</a></li>
+                            <li><a href="../PH/PH_index.html">Player Handbook</a></li>
                             <li><a href="MM_index.html">Monster Manual</a></li>
                             <li><a href="../DMG/DMG_index.html">Dungeon Master's Guide</a></li>
                         </ul>
@@ -38,103 +45,25 @@
                 </ul>
             </nav>
         </header>
-        Page 33 on Monster Manual
-    <div class="big_table">
-        <br />  
-        <table class="centerpls">
-            <caption></caption>
-            <colgroup>
-            <col span="6" />
-            </colgroup>
-            <thead>
-            <tr>
-                <th colspan="2">Armor Class</th>
-                <th colspan="2">Hit Points</th>
-                <th colspan="2">Speed</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td rowspan="2" colspan="2"></td>
-                <td rowspan="2" colspan="2"></td>
-                <td rowspan="2" colspan="2"></td>
-            </tr>
-            </tbody>
-            <thead>
-            <tr>
-                <th>STR</th>
-                <th>DEX</th>
-                <th>CON</th>
-                <th>INT</th>
-                <th>WIS</th>
-                <th>CHA</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-            </tr>
-            </tbody>
-            <thead>
-            <tr>
-                <th>Saving Throws</th>
-                <th>Skills</th>
-                <th>Damage Resistances</th>
-                <th>Condition Immunities</th>
-                <th>Senses</th>
-                <th>Languages</th>
-                <th>Challenge</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-            </tr>
-            </tbody>
-            <thead>
-            <tr>
-                <th>Special</th>
-            </tr>
-            <tr>
-                <th>Special</th>
-                <th>Special</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-            </tr>
-            </tbody>
-            <thead>
-            <tr>
-                <th>Actions</th>
-            </tr>
-            <tr>
-                <th>Actions</th>
-                <th>Actions</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-        <footer>
-        </footer>
+        <h2>What we have on this site</h2>
+        <ul>
+            <li class="monster"><a href="MM_Parts/MM_part1.html">Monsters List (with stats and abilities)</a></li>
+            <li class="rating"><a href="MM_Form.html">Form for rating the site</a></li>
+            <li class="ricebowl">Rice Bowls</li>
+        </ul>
+        <p>Click the audio to hear the video audio only</p>
+        <audio controls scr="Videostillframe.webp">
+            <source src="D&D_MM_audio.mp3" type="audio/mp3" />
+            <source src="D%D_MM_audio2.ogg" type="audio/ogg" />
+            <p><em>To play this audio clip, your browser needs to support HTML5.</em></p>
+        </audio>
+        <p>Click on the video to watch the book with the audio</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3uzMuPW2dLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
+
+    <footer>
+        <br />
+        <h3 id="footerh3">Dylan Wishon</h3> <a class="outside_link" href="https://online.anyflip.com/duex/ixpz/mobile/index.html#p=1" target="_blank" alt=""><h3 id="footerh3">Monster Manual Book (Online Verison)</h3></a>
+        <br />
+    </footer>
 </html>
