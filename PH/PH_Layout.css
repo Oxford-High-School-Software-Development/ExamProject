@@ -1,5 +1,5 @@
 html {
-    background: url('PH_background.jpg') center center / auto auto no-repeat fixed content-box content-box rgba(1, 0, 15, 0.94);
+    background: url('../PH_background.jpg') center center / auto auto no-repeat fixed content-box content-box rgba(1, 0, 15, 0.94);
 }
 
 body {
@@ -30,7 +30,7 @@ body > nav > ul > li > a {
 }
 
 body header {
-    background: url('space.jpg') ;
+    background: url('../space.jpg') ;
     border-radius: 10px;
 }
 
